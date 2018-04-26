@@ -36,6 +36,8 @@ public class App_info {
     private String  logoLocPath;// varchar(500) NULLLOGO图片的服务器存储路径
     private Integer  versionId;// bigint(30) NULL最新的版本id
 
+
+
     public App_info(){}
     public App_info(Integer id, String softwareName, String APKName, String supportROM, String interfaceLanguage, float softwareSize, Date updateDate, Integer devId, String appInfo, Integer status, Date onSaleDate, Date offSaleDate, Integer flatformId, Integer categoryLevel3, Integer downloads, Integer createdBy, Date creationDate, Integer modifyBy, Date modifyDate, Integer categoryLevel1, Integer categoryLevel2, String logoPicPath, String logoLocPath, Integer versionId) {
         this.id = id;
