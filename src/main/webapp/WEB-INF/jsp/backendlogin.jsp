@@ -9,23 +9,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>后台提交管理系统</title>
+    <title>后台管理系统</title>
 
     <!-- Bootstrap -->
-    <link href="${pageContext.request.contextPath }/statics/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="${pageContext.request.contextPath }/statics/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
-    <link href="${pageContext.request.contextPath }/statics/css/nprogress.css" rel="stylesheet">
+    <link href="css/nprogress.css" rel="stylesheet">
     <!-- Animate.css -->
-    <link href="https://colorlib.com/polygon/gentelella/css/animate.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="${pageContext.request.contextPath }/statics/css/custom.min.css" rel="stylesheet">
+    <link href="css/custom.min.css" rel="stylesheet">
   </head>
 
   <body class="login">
   <p>${name}</p>
+
     <div>
       <a class="hiddenanchor" id="signup"></a>
       <a class="hiddenanchor" id="signin"></a>
@@ -33,7 +34,7 @@
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
-            <form action="dologin" method="post">
+            <form action="/dologin.html" method="post">
               <h1>后台管理系统</h1>
               <div>
                 <input type="text" class="form-control" name="userCode" placeholder="请输入用户名" required="" />
