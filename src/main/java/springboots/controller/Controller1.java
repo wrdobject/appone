@@ -17,4 +17,11 @@ public class Controller1 {
     }
 
 
+    @RequestMapping("/backendlogin")
+    public String test02(HttpServletRequest request){
+
+        return "backendlogin";
+    }
+
+
 }

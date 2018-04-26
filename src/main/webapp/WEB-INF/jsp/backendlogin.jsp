@@ -25,6 +25,7 @@
   </head>
 
   <body class="login">
+  <p>${name}</p>
     <div>
       <a class="hiddenanchor" id="signup"></a>
       <a class="hiddenanchor" id="signin"></a>
