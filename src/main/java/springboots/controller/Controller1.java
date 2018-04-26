@@ -13,6 +13,7 @@ public class Controller1 {
     public String test01(HttpServletRequest request){
         request.setAttribute("name","罗曼蒂克");
         //request.setAttribute("","");
+        System.out.println("安栋提交滴");
         return "test";
     }
 
